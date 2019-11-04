@@ -1,0 +1,31 @@
+'use strict';
+
+const fs = require('fs');
+const rimraf = require('rimraf');
+const path = require('path');
+
+const configFile = process.argv[2];
+const config = JSON.parse(fs.readFileSync(configFile));
+
+const baseDir = path.dirname(path.resolve(configFile));
+const distDir = path.join(baseDir, config.distDir);
+
+rimraf.sync(distDir);
+fs.mkdirSync(distDir);
+
+const templateFile = path.join(baseDir, config.template);
+const template = fs.readFileSync(templateFile, "utf-8");
+
+for (let v of config.values) {
+  const emailDir = path.join(distDir, v.__DIR__);
+  fs.mkdirSync(emailDir);
+  const htmlFile = path.join(emailDir, "index.html");
+
+  let html = template;
+  for (const k of Object.keys(v)) {
+    console.log(k, v[k])
+    html = html.replace(k, v[k]);
+  }
+
+  fs.writeFileSync(htmlFile, html);
+}

@@ -1,0 +1,24 @@
+{
+  "distDir": "dist",
+  "template": "template-inlined.html",
+  "values": [
+    {
+      "__DIR__": "1",
+      "__PROMO_TEXT__": "We’re that crazy, we do not want you to miss out!",
+      "__PROMO_COLOR__": "#650305",
+      "__BACK_COLOR__": "#fdc300"
+    },
+    {
+      "__DIR__": "2",
+      "__PROMO_TEXT__": "Are you ready for crazy deals & offers?",
+      "__PROMO_COLOR__": "#ffffff",
+      "__BACK_COLOR__": "#c47ac1"
+    },
+    {
+      "__DIR__": "3",
+      "__PROMO_TEXT__": "Get ready for crazy deals & offers!",
+      "__PROMO_COLOR__": "#016c32",
+      "__BACK_COLOR__": "#fcd643"
+    }
+  ]
+}
