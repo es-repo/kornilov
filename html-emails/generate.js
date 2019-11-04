@@ -1,6 +1,6 @@
 'use strict';
 
-const fs = require('fs');
+const fs = { ...require('fs'), ...require('fs-extra') };
 const rimraf = require('rimraf');
 const path = require('path');
 
@@ -23,9 +23,16 @@ for (let v of config.values) {
 
   let html = template;
   for (const k of Object.keys(v)) {
-    console.log(k, v[k])
     html = html.replace(k, v[k]);
   }
 
   fs.writeFileSync(htmlFile, html);
+
+  const imagesDirSource = path.join(baseDir, v.__DIR__, "images");
+  const commonImagesDirSource = path.join(baseDir, "images");
+  const imagesDirDest = path.join(emailDir, "images");
+  fs.copySync(imagesDirSource, imagesDirDest);
+  fs.copySync(commonImagesDirSource, imagesDirDest);
+
+  //fs.copy(commonImagesDirSource, imagesDirDest);
 }
