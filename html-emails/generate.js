@@ -33,6 +33,4 @@ for (let v of config.values) {
   const imagesDirDest = path.join(emailDir, "images");
   fs.copySync(imagesDirSource, imagesDirDest);
   fs.copySync(commonImagesDirSource, imagesDirDest);
-
-  //fs.copy(commonImagesDirSource, imagesDirDest);
 }
