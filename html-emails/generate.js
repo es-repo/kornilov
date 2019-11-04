@@ -16,8 +16,8 @@ fs.mkdirSync(distDir);
 const templateFile = path.join(baseDir, config.template);
 const template = fs.readFileSync(templateFile, "utf-8");
 
-for (let v of config.values) {
-  const emailDir = path.join(distDir, v.__DIR__);
+for (let replaces of config.replaces) {
+  const emailDir = path.join(distDir, replaces.__DIR__);
   fs.mkdirSync(emailDir);
   const htmlFile = path.join(emailDir, "index.html");
 
@@ -25,13 +25,18 @@ for (let v of config.values) {
 
   //console.log(html.indexOf("__REGISTER_BUTTON_COLOR__"))
 
-  for (const k of Object.keys(v)) {
-    html = html.replace(new RegExp(k, "g"), v[k]);
+  for (const k of Object.keys(replaces)) {
+    let v = replaces[k];
+    if (v.indexOf("file://") === 0) {
+      const file = path.join(baseDir, v.replace("file://", ""));
+      v = fs.readFileSync(file, "utf-8");
+    }
+    html = html.replace(new RegExp(k, "g"), v);
   }
 
   fs.writeFileSync(htmlFile, html);
 
-  const imagesDirSource = path.join(baseDir, v.__DIR__, "images");
+  const imagesDirSource = path.join(baseDir, replaces.__DIR__, "images");
   const commonImagesDirSource = path.join(baseDir, "images");
   const imagesDirDest = path.join(emailDir, "images");
   fs.copySync(imagesDirSource, imagesDirDest);
