@@ -22,8 +22,11 @@ for (let v of config.values) {
   const htmlFile = path.join(emailDir, "index.html");
 
   let html = template;
+
+  //console.log(html.indexOf("__REGISTER_BUTTON_COLOR__"))
+
   for (const k of Object.keys(v)) {
-    html = html.replace(k, v[k]);
+    html = html.replace(new RegExp(k, "g"), v[k]);
   }
 
   fs.writeFileSync(htmlFile, html);

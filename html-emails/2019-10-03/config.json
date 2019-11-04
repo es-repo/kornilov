@@ -5,20 +5,29 @@
     {
       "__DIR__": "1",
       "__PROMO_TEXT__": "We’re that crazy, we do not want you to miss out!",
+      "__PROMO_SIDE_PADDING__": "18px",
       "__PROMO_COLOR__": "#650305",
-      "__BACK_COLOR__": "#fdc300"
+      "__BACK_COLOR__": "#fdc300",
+      "__REGISTER_BUTTON_COLOR__": "#650305",
+      "__LINK_COLOR__": "#d51717"
     },
     {
       "__DIR__": "2",
       "__PROMO_TEXT__": "Are you ready for crazy deals & offers?",
+      "__PROMO_SIDE_PADDING__": "18px",
       "__PROMO_COLOR__": "#ffffff",
-      "__BACK_COLOR__": "#c47ac1"
+      "__BACK_COLOR__": "#c47ac1",
+      "__REGISTER_BUTTON_COLOR__": "#016c32",
+      "__LINK_COLOR__": "#ffffff"
     },
     {
       "__DIR__": "3",
       "__PROMO_TEXT__": "Get ready for crazy deals & offers!",
+      "__PROMO_SIDE_PADDING__": "48px",
       "__PROMO_COLOR__": "#016c32",
-      "__BACK_COLOR__": "#fddd32"
+      "__BACK_COLOR__": "#fddd32",
+      "__REGISTER_BUTTON_COLOR__": "#016c32",
+      "__LINK_COLOR__": "#016c32"
     }
   ]
 }
