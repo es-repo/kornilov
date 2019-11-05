@@ -5,6 +5,7 @@
     {
       "__DIR__": "mega",
       "__INSTRUCTION_HTML__": "file://snippets/hurry-up.html",
+      "__FOR_MORE_INFO_HTML__": "file://snippets/for-more-info.html",
       "__PROMO_TEXT__": "We’re that crazy, we do not want you to miss out!",
       "__PROMO_SIDE_PADDING__": "18px",
       "__PROMO_COLOR__": "#650305",
@@ -15,6 +16,7 @@
     {
       "__DIR__": "trumpet",
       "__INSTRUCTION_HTML__": "file://snippets/white-friday.html",
+      "__FOR_MORE_INFO_HTML__": "file://snippets/for-more-info.html",
       "__PROMO_TEXT__": "Are you ready for crazy deals & offers?",
       "__PROMO_SIDE_PADDING__": "18px",
       "__PROMO_COLOR__": "#ffffff",
@@ -25,6 +27,7 @@
     {
       "__DIR__": "lamp",
       "__INSTRUCTION_HTML__": "file://snippets/white-friday.html",
+      "__FOR_MORE_INFO_HTML__": "file://snippets/for-more-info.html",
       "__PROMO_TEXT__": "Get ready for crazy deals & offers!",
       "__PROMO_SIDE_PADDING__": "48px",
       "__PROMO_COLOR__": "#016c32",
@@ -35,6 +38,7 @@
     {
       "__DIR__": "ball",
       "__INSTRUCTION_HTML__": "file://snippets/thank-you.html",
+      "__FOR_MORE_INFO_HTML__": "file://snippets/for-more-info.html",
       "__PROMO_TEXT__": "Told you we’re that crazy!",
       "__PROMO_SIDE_PADDING__": "74px",
       "__PROMO_COLOR__": "#fe56a4",
@@ -45,6 +49,7 @@
     {
       "__DIR__": "leaf",
       "__INSTRUCTION_HTML__": "file://snippets/hurry-up.html",
+      "__FOR_MORE_INFO_HTML__": "file://snippets/for-more-info.html",
       "__PROMO_TEXT__": "We’re that crazy, we do not want you to miss out!",
       "__PROMO_SIDE_PADDING__": "18px",
       "__PROMO_COLOR__": "#304b25",
@@ -55,6 +60,7 @@
     {
       "__DIR__": "flower",
       "__INSTRUCTION_HTML__": "file://snippets/thank-you.html",
+      "__FOR_MORE_INFO_HTML__": "",
       "__PROMO_TEXT__": "Want to hear something crazy?",
       "__PROMO_SIDE_PADDING__": "26px",
       "__PROMO_COLOR__": "#ffffff",
@@ -65,6 +71,7 @@
     {
       "__DIR__": "ice-cream",
       "__INSTRUCTION_HTML__": "file://snippets/white-friday.html",
+      "__FOR_MORE_INFO_HTML__": "file://snippets/for-more-info.html",
       "__PROMO_TEXT__": "Are you ready for crazy deals & offers?",
       "__PROMO_SIDE_PADDING__": "18px",
       "__PROMO_COLOR__": "#4d2e27",
@@ -75,6 +82,7 @@
     {
       "__DIR__": "pine",
       "__INSTRUCTION_HTML__": "file://snippets/white-friday.html",
+      "__FOR_MORE_INFO_HTML__": "file://snippets/for-more-info.html",
       "__PROMO_TEXT__": "Get ready for crazy deals & offers!",
       "__PROMO_SIDE_PADDING__": "48px",
       "__PROMO_COLOR__": "#ffffff",
@@ -85,6 +93,7 @@
     {
       "__DIR__": "avocado",
       "__INSTRUCTION_HTML__": "file://snippets/thank-you.html",
+      "__FOR_MORE_INFO_HTML__": "file://snippets/for-more-info.html",
       "__PROMO_TEXT__": "Told you we’re that crazy!",
       "__PROMO_SIDE_PADDING__": "74px",
       "__PROMO_COLOR__": "#1c233d",
@@ -95,6 +104,7 @@
     {
       "__DIR__": "flamingo",
       "__INSTRUCTION_HTML__": "file://snippets/click-register.html",
+      "__FOR_MORE_INFO_HTML__": "",
       "__PROMO_TEXT__": "Want to hear something crazy?",
       "__PROMO_SIDE_PADDING__": "26px",
       "__PROMO_COLOR__": "#016c32",
