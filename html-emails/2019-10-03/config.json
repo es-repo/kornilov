@@ -61,6 +61,46 @@
       "__BACK_COLOR__": "#53bfed",
       "__REGISTER_BUTTON_COLOR__": "#e31540",
       "__LINK_COLOR__": "#ffffff"
+    },
+    {
+      "__DIR__": "ice-cream",
+      "__INSTRUCTION_HTML__": "file://snippets/white-friday.html",
+      "__PROMO_TEXT__": "Are you ready for crazy deals & offers?",
+      "__PROMO_SIDE_PADDING__": "18px",
+      "__PROMO_COLOR__": "#4d2e27",
+      "__BACK_COLOR__": "#fbdd63",
+      "__REGISTER_BUTTON_COLOR__": "#e12e51",
+      "__LINK_COLOR__": "#ffffff"
+    },
+    {
+      "__DIR__": "pine",
+      "__INSTRUCTION_HTML__": "file://snippets/white-friday.html",
+      "__PROMO_TEXT__": "Get ready for crazy deals & offers!",
+      "__PROMO_SIDE_PADDING__": "48px",
+      "__PROMO_COLOR__": "#ffffff",
+      "__BACK_COLOR__": "#cc67dc",
+      "__REGISTER_BUTTON_COLOR__": "#2b4d7f",
+      "__LINK_COLOR__": "#ededed"
+    },
+    {
+      "__DIR__": "avocado",
+      "__INSTRUCTION_HTML__": "file://snippets/thank-you.html",
+      "__PROMO_TEXT__": "Told you we’re that crazy!",
+      "__PROMO_SIDE_PADDING__": "74px",
+      "__PROMO_COLOR__": "#1c233d",
+      "__BACK_COLOR__": "#fcd643",
+      "__REGISTER_BUTTON_COLOR__": "#016c32",
+      "__LINK_COLOR__": "#ffffff"
+    },
+    {
+      "__DIR__": "flamingo",
+      "__INSTRUCTION_HTML__": "file://snippets/click-register.html",
+      "__PROMO_TEXT__": "Want to hear something crazy?",
+      "__PROMO_SIDE_PADDING__": "26px",
+      "__PROMO_COLOR__": "#016c32",
+      "__BACK_COLOR__": "#fcd643",
+      "__REGISTER_BUTTON_COLOR__": "#016c32",
+      "__LINK_COLOR__": "#016c32"
     }
   ]
 }
